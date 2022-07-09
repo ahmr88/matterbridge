@@ -20,12 +20,13 @@
           pname = "matterbridge";
           version = "1.25.1";
 
-          src = pkgs.fetchFromGitHub {
+          src = ./.;
+          /* src = pkgs.fetchFromGitHub {
             owner = "ahmr88";
             repo = pname;
             rev = "master";
             sha256 = "sha256-mfNYYvd8GHTy98qqA+65ARuA8zP3v3gpAYtDigiPFa4=";
-          };
+          }; */
 
           tags = [
             "nomsteams"
