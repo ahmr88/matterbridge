@@ -46,7 +46,7 @@
         };
       in
       {
-        packages.my-matterbridge = my-matterbridge;
+        packages.matterbridge = my-matterbridge;
 
         defaultPackage = my-matterbridge;
 
